@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deletegate", "Deletegate\Deletegate.csproj", "{816F3BDD-7DF1-4379-941C-4DFDBC5038FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{E12B285B-6943-4039-B7ED-33C580FAB1D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoApp", "VideoApp\VideoApp.csproj", "{C83200A3-BB87-451F-AF5E-D5586920E5B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{816F3BDD-7DF1-4379-941C-4DFDBC5038FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{816F3BDD-7DF1-4379-941C-4DFDBC5038FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{816F3BDD-7DF1-4379-941C-4DFDBC5038FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{816F3BDD-7DF1-4379-941C-4DFDBC5038FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E12B285B-6943-4039-B7ED-33C580FAB1D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E12B285B-6943-4039-B7ED-33C580FAB1D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E12B285B-6943-4039-B7ED-33C580FAB1D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E12B285B-6943-4039-B7ED-33C580FAB1D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C83200A3-BB87-451F-AF5E-D5586920E5B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C83200A3-BB87-451F-AF5E-D5586920E5B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C83200A3-BB87-451F-AF5E-D5586920E5B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C83200A3-BB87-451F-AF5E-D5586920E5B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {171DA2E0-C882-47FE-A1B4-E3FC198A61C9}
+	EndGlobalSection
+EndGlobal
