@@ -1,5 +1,6 @@
 ﻿using System;
 using Deletegate;
+using Events.Notifications;
 using VideoApp;
 
 namespace Events
@@ -14,6 +15,7 @@ namespace Events
             var video = new Video{Title = "Die Hard"};
             var emailNotification = new EmailNotification();
             var slackNotification = new SlackNotification();
+            var textNotification = new TextNotification();
 
             // Add ConvertToMkv action
             Action<Video> videoConversionAction = videoConverter.ConvertToMkv;
@@ -21,6 +23,7 @@ namespace Events
             // Add email notification as subscriber to VideoConverted event
             videoConverter.VideoConverted += emailNotification.OnVideoConverted;
             videoConverter.VideoConverted += slackNotification.OnVideoConverted;
+            videoConverter.VideoConverted += textNotification.OnVideoConverted;
 
             // Convert video
             videoConverter.ConvertVideo(video, videoConversionAction);
