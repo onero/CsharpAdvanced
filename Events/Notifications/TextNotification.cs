@@ -1,5 +1,5 @@
 ﻿using System;
-using Deletegate;
+using VideoApp;
 
 namespace Events.Notifications
 {

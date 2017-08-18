@@ -1,5 +1,4 @@
 ﻿using System;
-using Deletegate;
 using Events.Notifications;
 using VideoApp;
 

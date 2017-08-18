@@ -1,4 +1,4 @@
-﻿namespace Deletegate
+﻿namespace VideoApp
 {
     public class Video
     {

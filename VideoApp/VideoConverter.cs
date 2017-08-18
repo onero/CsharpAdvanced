@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Threading;
-using Deletegate;
 
 namespace VideoApp
 {
@@ -33,6 +32,7 @@ namespace VideoApp
         protected virtual void OnVideoConverted(Video video)
         {
             Thread.Sleep(5000);
+            
             VideoConverted?.Invoke(this, video);
         }
     }

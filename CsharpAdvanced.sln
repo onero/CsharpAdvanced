@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deletegate", "Deletegate\Deletegate.csproj", "{816F3BDD-7DF1-4379-941C-4DFDBC5038FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deletegate", "Deletegate\Deletegate.csproj", "{816F3BDD-7DF1-4379-941C-4DFDBC5038FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{E12B285B-6943-4039-B7ED-33C580FAB1D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Events", "Events\Events.csproj", "{E12B285B-6943-4039-B7ED-33C580FAB1D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoApp", "VideoApp\VideoApp.csproj", "{C83200A3-BB87-451F-AF5E-D5586920E5B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoApp", "VideoApp\VideoApp.csproj", "{C83200A3-BB87-451F-AF5E-D5586920E5B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{43B510A4-ADA7-4661-B084-57916E0A6F93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nullable", "Nullable\Nullable.csproj", "{F6B5A028-500C-42AE-B1F7-AAB05DD04A98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{C83200A3-BB87-451F-AF5E-D5586920E5B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C83200A3-BB87-451F-AF5E-D5586920E5B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C83200A3-BB87-451F-AF5E-D5586920E5B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43B510A4-ADA7-4661-B084-57916E0A6F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B510A4-ADA7-4661-B084-57916E0A6F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B510A4-ADA7-4661-B084-57916E0A6F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B510A4-ADA7-4661-B084-57916E0A6F93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B5A028-500C-42AE-B1F7-AAB05DD04A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B5A028-500C-42AE-B1F7-AAB05DD04A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B5A028-500C-42AE-B1F7-AAB05DD04A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B5A028-500C-42AE-B1F7-AAB05DD04A98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
