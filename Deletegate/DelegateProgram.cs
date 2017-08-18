@@ -1,8 +1,9 @@
 ﻿using System;
+using VideoApp;
 
 namespace Deletegate
 {
-    class Program
+    internal static class DelegateProgram
     {
         static void Main(string[] args)
         {
@@ -12,11 +13,11 @@ namespace Deletegate
             var video = new Video() { Title = "Die Hard" };
 
             // Action is void delegate (Func() is a return delegate)
-            Action<Video> videoConversionHandler = videoConverter.ConvertToMp4;
+            Action<Video> videoConversionAction = videoConverter.ConvertToMp4;
 
-            videoConversionHandler += videoConverter.ConvertToMkv;
+            videoConversionAction += videoConverter.ConvertToMkv;
 
-            videoConverter.ConvertVideo(video, videoConversionHandler);
+            videoConverter.ConvertVideo(video, videoConversionAction);
         }
     }
 }
