@@ -1,6 +1,6 @@
 using VideoApp;
 
-namespace Events
+namespace Events.Notifications
 {
     public interface INotification
     {

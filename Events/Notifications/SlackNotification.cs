@@ -1,7 +1,7 @@
 using System;
 using VideoApp;
 
-namespace Events
+namespace Events.Notifications
 {
     public class SlackNotification : INotification
     {

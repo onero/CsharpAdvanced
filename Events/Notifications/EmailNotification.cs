@@ -1,8 +1,7 @@
 using System;
-using System.Threading;
 using VideoApp;
 
-namespace Events
+namespace Events.Notifications
 {
     public sealed class EmailNotification : INotification
     {
