@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq", "Linq\Linq.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nullable", "Nullable\Nullable.csproj", "{F6B5A028-500C-42AE-B1F7-AAB05DD04A98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamic", "Dynamic\Dynamic.csproj", "{3DB4AA45-DBDE-4EF8-A6DD-730434180685}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dynamic", "Dynamic\Dynamic.csproj", "{3DB4AA45-DBDE-4EF8-A6DD-730434180685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async", "Async\Async.csproj", "{9E0DF3B7-B990-43C2-B55D-2B47CD066B4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{3DB4AA45-DBDE-4EF8-A6DD-730434180685}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DB4AA45-DBDE-4EF8-A6DD-730434180685}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DB4AA45-DBDE-4EF8-A6DD-730434180685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0DF3B7-B990-43C2-B55D-2B47CD066B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0DF3B7-B990-43C2-B55D-2B47CD066B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0DF3B7-B990-43C2-B55D-2B47CD066B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0DF3B7-B990-43C2-B55D-2B47CD066B4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
